@@ -1,0 +1,45 @@
+body {
+    height: 100vh;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008739, #00bf72, #a8eb12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+section {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+button {
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #fff;
+}
+
+.copyCode {
+    display: block;
+    font-size: 1.2rem;
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-left: 5px solid #a8eb12;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.copyCode:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
